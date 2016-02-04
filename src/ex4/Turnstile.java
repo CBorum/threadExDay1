@@ -4,7 +4,7 @@ package ex4;
 public class Turnstile implements Runnable{
   private final TurnstileCounter counter;
   private int count;
-
+  
   final int COUNT_MAX = 1000;
 
   Turnstile(TurnstileCounter c) {
